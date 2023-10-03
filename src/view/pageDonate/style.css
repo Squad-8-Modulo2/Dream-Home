@@ -6,7 +6,7 @@
     padding: 8.9375rem 6.0625rem 8.625rem 7.625rem;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
     border: 6.25rem;
     background-color: rgba(26, 28, 43, 1);
 }
@@ -53,29 +53,33 @@
 .paginaDoacaoAcoes {
     display: inline-flex;
     width: 64.5rem;
-    height: 48.9375rem;
+    height: 35rem;
     flex-shrink: 0;
     background-color: rgba(43, 48, 73, 1);
     justify-content: center;
     align-items: center;
     padding: 8.9375rem 6.0625rem 8.625rem 7.625rem;
-    gap: 5rem;
+    gap: 8rem;
 }
 
 #doacaoDivDoeValor {
-    width: 23.625rem;
+    width: 18rem;
     height: 29.5625rem;
     flex-shrink: 0;
 }
 
+#doacaoDivDoeValor h1{
+    margin-top: -1rem;
+}
+
 #doacaoDivMoveis {
-    width: 25.125rem;
+    width: 20rem;
     height: 28.5625rem;
     flex-shrink: 0;
 }
 
 #doacaoDivParceria {
-    width: 22.5rem;
+    width: 17rem;
     height: 29.5625rem;
     flex-shrink: 0;
 }
