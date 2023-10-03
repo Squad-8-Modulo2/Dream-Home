@@ -1,0 +1,113 @@
+.paginaDoacaoApresentacao {
+    width: 64.5rem;
+    height: 25.1rem;
+    top: 6.25rem;
+    display: inline-flex;
+    padding: 8.9375rem 6.0625rem 8.625rem 7.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    border: 6.25rem;
+    background-color: rgba(26, 28, 43, 1);
+}
+
+.paginaDoacaoApresentacao h1 {
+    width: 28.8125rem;
+    color: rgba(94, 136, 252, 1);
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.paginaDoacaoApresentacao p {
+    width: 28.8125rem;
+    color: #E9F2FC;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paginaDoacaoApresentacao button {
+    display: flex;
+    width: 9rem;
+    height: 3.125rem;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: rgba(74, 108, 201, 1);
+}
+
+.paginaDoacaoApresentacao img {
+    width: 38.4375rem;
+    height: 25rem;
+}
+
+.paginaDoacaoAcoes {
+    display: inline-flex;
+    width: 64.5rem;
+    height: 48.9375rem;
+    flex-shrink: 0;
+    background-color: rgba(43, 48, 73, 1);
+    justify-content: center;
+    align-items: center;
+    padding: 8.9375rem 6.0625rem 8.625rem 7.625rem;
+    gap: 5rem;
+}
+
+#doacaoDivDoeValor {
+    width: 23.625rem;
+    height: 29.5625rem;
+    flex-shrink: 0;
+}
+
+#doacaoDivMoveis {
+    width: 25.125rem;
+    height: 28.5625rem;
+    flex-shrink: 0;
+}
+
+#doacaoDivParceria {
+    width: 22.5rem;
+    height: 29.5625rem;
+    flex-shrink: 0;
+}
+
+.paginaDoacaoAcoes h1 {
+    color: #5E88FC;
+    font-family: Poppins;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.paginaDoacaoAcoes p {
+    color: #E9F2FC;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paginaDoacaoAcoes button {
+    display: flex;
+    width: 11.125rem;
+    height: 3.125rem;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: rgba(74, 108, 201, 1);
+}
