@@ -1,5 +1,9 @@
+body{
+margin: 0%;
+}
+
 .paginaDoacaoApresentacao {
-    width: 64.5rem;
+    width: 65.2rem;
     height: 25.1rem;
     top: 6.25rem;
     display: inline-flex;
@@ -33,7 +37,7 @@
 
 .paginaDoacaoApresentacao button {
     display: flex;
-    width: 9rem;
+    width: 10rem;
     height: 3.125rem;
     padding: 1rem;
     flex-direction: column;
@@ -43,6 +47,10 @@
     flex-shrink: 0;
     border-radius: 1rem;
     background: rgba(74, 108, 201, 1);
+    font-weight: 900;
+    font-size: 1.4rem;
+    font-family: Poppins;
+    color: #E9F2FC;
 }
 
 .paginaDoacaoApresentacao img {
@@ -52,7 +60,7 @@
 
 .paginaDoacaoAcoes {
     display: inline-flex;
-    width: 64.5rem;
+    width: 65.2rem;
     height: 35rem;
     flex-shrink: 0;
     background-color: rgba(43, 48, 73, 1);
@@ -114,4 +122,30 @@
     flex-shrink: 0;
     border-radius: 1rem;
     background: rgba(74, 108, 201, 1);
+    font-weight: 900;
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #E9F2FC;
 }
+
+button:hover{
+    background-color: rgb(92, 133, 255);
+}
+
+@media screen and (max-width: 830px){
+    .paginaDoacaoApresentacao{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width: 830px){
+    .paginaDoacaoAcoes{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
