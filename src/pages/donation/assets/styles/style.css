@@ -1,56 +1,57 @@
+@import url("../../../../global/styles/base.css"); 
+@import url("../../../../global/navbar/assets/styles/navbar.css");
+@import url("../../../../global/footer/assets/styles/footer.css");
+
 body{
 margin: 0%;
 }
 
 .paginaDoacaoApresentacao {
-    width: 65.2rem;
-    height: 25.1rem;
-    top: 6.25rem;
-    display: inline-flex;
-    padding: 8.9375rem 6.0625rem 8.625rem 7.625rem;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12rem;
+    width: 100vw;
+    height: 100vh;
+    padding-inline: 7%;
     border: 6.25rem;
     background-color: rgba(26, 28, 43, 1);
+    margin-top: 2rem;
+
 }
 
 .paginaDoacaoApresentacao h1 {
-    width: 28.8125rem;
+    width: 46.8125rem;
     color: rgba(94, 136, 252, 1);
     font-family: Poppins;
-    font-size: 2.5rem;
+    font-size: 4.0rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .paginaDoacaoApresentacao p {
-    width: 28.8125rem;
+    width: 46rem;
     color: #E9F2FC;
     font-family: Poppins;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .paginaDoacaoApresentacao button {
-    display: flex;
-    width: 10rem;
-    height: 3.125rem;
-    padding: 1rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.625rem;
-    flex-shrink: 0;
-    border-radius: 1rem;
-    background: rgba(74, 108, 201, 1);
-    font-weight: 900;
-    font-size: 1.4rem;
+    padding: 1.6rem;
+    border-radius: 1.6rem;
+    background: var(--primary-color);
+    font-weight: var(--fw-medium);
+    font-size: var(--fsize-text);
     font-family: Poppins;
-    color: #E9F2FC;
+    color: var(--text-color);
+    border: none;
+    margin-top: 3rem;
 }
 
 .paginaDoacaoApresentacao img {
@@ -59,73 +60,94 @@ margin: 0%;
 }
 
 .paginaDoacaoAcoes {
-    display: inline-flex;
-    width: 65.2rem;
-    height: 35rem;
-    flex-shrink: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: rgba(43, 48, 73, 1);
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 8.9375rem 6.0625rem 8.625rem 7.625rem;
-    gap: 8rem;
+    align-content: center;
+    padding-inline: 7%;
+    gap: 3rem;
 }
 
+.paginaDoacaoAcoes div {
+    height: 45rem;
+}
+
+
 #doacaoDivDoeValor {
-    width: 18rem;
-    height: 29.5625rem;
-    flex-shrink: 0;
+   width: 37.8rem;
+}
+
+
+#doacaoDivDoeValor p{
+    width: 34rem;
 }
 
 #doacaoDivDoeValor h1{
     margin-top: -1rem;
 }
 
+#doacaoDivMoveis p{
+    width: 34rem;
+}
+
 #doacaoDivMoveis {
-    width: 20rem;
-    height: 28.5625rem;
-    flex-shrink: 0;
+    height: auto;
 }
 
 #doacaoDivParceria {
-    width: 17rem;
-    height: 29.5625rem;
-    flex-shrink: 0;
+    width: auto;
 }
+
+#doacaoDivParceria p{
+    width: 24.4rem;
+}
+
+
 
 .paginaDoacaoAcoes h1 {
     color: #5E88FC;
     font-family: Poppins;
-    font-size: 2.1875rem;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-bottom: 1.4rem;
 }
 
 .paginaDoacaoAcoes p {
     color: #E9F2FC;
     font-family: Poppins;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .paginaDoacaoAcoes button {
-    display: flex;
-    width: 11.125rem;
-    height: 3.125rem;
-    padding: 1rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.625rem;
-    flex-shrink: 0;
-    border-radius: 1rem;
-    background: rgba(74, 108, 201, 1);
-    font-weight: 900;
-    font-size: 1.2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #E9F2FC;
+    padding: 1.6rem;
+    border-radius: 1.6rem;
+    height: 5rem;
+    background: var(--primary-color);
+    font-weight: var(--fw-medium);
+    font-size: var(--fsize-text);
+    font-family: Poppins;
+    color: var(--text-color);
+    border: none;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#btnDonateFurniture{
+width: 17.8rem;
+}
+
+#btnParcerias{
+    width: 17.8rem;
 }
 
 button:hover{
@@ -134,8 +156,8 @@ button:hover{
 
 @media screen and (max-width: 830px){
     .paginaDoacaoApresentacao{
-        height: 100%;
-        width: 100%;
+        height: 100vh;
+        width: 100vw;
         flex-direction: column;
 
     }
@@ -143,9 +165,8 @@ button:hover{
 
 @media screen and (max-width: 830px){
     .paginaDoacaoAcoes{
-        height: 100%;
-        width: 100%;
+        height: 100vh;
+        width: 100vw;
         flex-direction: column;
     }
 }
-
