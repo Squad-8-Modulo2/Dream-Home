@@ -1,0 +1,143 @@
+header {
+  margin-top: -0.1rem;
+}
+
+/* NAVBAR */
+.nav {
+  position: fixed;
+  top: 0;
+  height: 10rem;
+  padding-inline: 7%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background: var(--primary-bg-color);
+  width: 100%;
+  z-index: 2;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  font-size: 1.8rem;
+  color: var(--text-color);
+  font-weight: var(--fw-medium);
+}
+
+.nav_list a {
+  padding-block: 1.6rem;
+}
+
+/* ACTIVE NAVBAR */
+.clicked {
+  color: var(--secondary-color);
+}
+
+/* MENU MOBILE */
+.menu_hamburger {
+  display: none;
+  opacity: 0;
+  color: transparent;
+}
+
+.close_menu {
+  display: none;
+  opacity: 0;
+  color: transparent;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1060px) {
+  .nav_list {
+    font-size: var(--fsize-text);
+    gap: 3rem;
+  }
+
+  .logo {
+    width: 20rem;
+  }
+}
+
+/* MEDIA 810px */
+@media (max-width: 810px) {
+
+  /* NAVBAR */
+  .nav_list {
+    top: 0;
+    left: 0;
+    position: absolute;
+    flex-direction: column;
+    background: #15172369;
+    clip-path: circle(100px at 90% -20%);
+    transition: 1s ease;
+    pointer-events: none;
+    backdrop-filter: blur(0.8rem);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    gap: 6rem;
+  }
+
+  .logo {
+    width: 17rem;
+  }
+
+  .clicked {
+    color: var(--text-color);
+  }
+
+  .nav_list.mobile_menu {
+    clip-path: circle(1500px at 90% -20%);
+    pointer-events: all;
+  }
+
+  .nav_list a {
+    opacity: 0;
+  }
+
+  .nav_list li:nth-child(1) a {
+    transition: 0.5s 0.2s ease-in-out;
+  }
+
+  .nav_list li:nth-child(2) a {
+    transition: 0.5s 0.4s ease-in-out;
+  }
+
+  .nav_list li:nth-child(3) a {
+    transition: 0.5s 0.6s ease-in-out;
+  }
+
+  .nav_list li:nth-child(4) a {
+    transition: 0.5s 0.8s ease-in-out;
+  }
+
+  .nav_list li:nth-child(5) a {
+    transition: 0.5s 0.9s ease-in-out;
+  }
+
+  .nav_list.mobile_menu a {
+    opacity: 1;
+  }
+
+  /* MENU MOBILE */
+  .menu_hamburger {
+    display: block;
+    opacity: 1;
+    z-index: 2;
+    font-size: 3rem;
+    color: var(--text-color);
+    transition: .3s;
+  }
+
+  .close_menu {
+    position: absolute;
+    right: 7%;
+    z-index: 3;
+    font-size: 3rem;
+    color: var(--text-color);
+    transition: .3s;
+  }
+}
