@@ -4,9 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../global/styles/base.css">
-  <link rel="stylesheet" href="../../global/navbar/assets/styles/navbar.css">
-  <link rel="stylesheet" href="../../global/footer/assets/styles/footer.css">
+  <link rel="stylesheet" href="./assets/styles/volunteers.css">
+  <link rel="stylesheet" href="./assets/styles/responsive-volunteers.css">
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
   <title>Voluntários | Dream Home</title>
 </head>
@@ -27,19 +26,57 @@
     </nav>
   </header>
 
-  <div class="teste">
-    <img src="https://cbissn.ibict.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png" alt="" srcset=""><br>
-    <img src="https://cbissn.ibict.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png" alt="" srcset=""><br>
-    <img src="https://cbissn.ibict.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png" alt="" srcset=""><br>
-    <img src="https://cbissn.ibict.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png" alt="" srcset=""><br>
-    <img src="https://cbissn.ibict.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png" alt="" srcset=""><br>
-  </div>
+  <main class="main">
+    <div class="volunteers_container">
+      <div class="form_title">
+        <h1>Seja um Voluntário</h1>
+        <p>Na Dream Home, cada voluntário é um construtor de sonhos. Seu tempo, energia e paixão são os tijolos e argamassa que transformam a esperança em realidade, criando lares para aqueles que mais precisam. Se você está procurando uma maneira significativa de contribuir, de fazer a diferença, de mudar o mundo um lar de cada vez, então junte-se a nós e torne-se parte da nossa comunidade dedicada de sonhadores e realizadores.</p>
+        <img src="./assets/img/volunteers-illustration.svg" alt="">
+      </div>
+
+      <div class="form_container">
+        <form action="#">
+          <div class="input_group">
+            <div class="input_box first_name_box">
+              <label for="first_name">Nome</label>
+              <input id="first_name" type="text" name="first_name" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="input_box last_name_box">
+              <label for="last_name">Sobrenome</label>
+              <input id="last_name" type="text" name="last_name" placeholder="Digite seu sobrenome" required>
+            </div>
+
+            <div class="input_box email_box">
+              <label for="email">E-mail</label>
+              <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+
+            <div class="input_box phone_number_box">
+              <label for="phone_number">Celular</label>
+              <input id="phone_number" type="tel" name="phone_number" placeholder="(xx) xxxxx-xxxx" required>
+            </div>
+
+            <div class="input_box story_box">
+              <label for="story">Por que você quer ser um voluntário?</label>
+              <textarea id="story" name="story" placeholder="Quero ser um voluntário porque..." required></textarea>
+            </div>
+
+            <div class="submit_button">
+              <button type="submit">Me tornar voluntário</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
 
   <footer class="footer" id="footer">
     <div class="footer_main">
       <div class="logo">
         <img src="/public/Logo-Dream-Home.svg" alt="">
       </div>
+
       <div class="links_container">
         <ul class="footer_links">
           <li><a href="../../pages/home/index.html">Início</a></li>
@@ -48,6 +85,7 @@
           <li><a href="../../pages/register/register.html">Cadastro</a></li>
         </ul>
       </div>
+
       <div class="social_icons">
         <img src="/public/twitter-logo.svg" alt="">
         <img src="/public/facebook-logo.svg" alt="">
@@ -55,6 +93,7 @@
         <a href="https://github.com/Squad-8-Modulo2/Projeto-final-" target="_blank"><img src="/public/GitHub.svg" alt=""></a>
       </div>
     </div>
+
     <div class="footer_credits">
       <p>Feito com <img src="/public/heart.svg" alt=""> por
         <span>

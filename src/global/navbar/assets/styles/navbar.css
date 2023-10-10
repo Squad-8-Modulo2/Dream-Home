@@ -1,9 +1,6 @@
-header {
-  margin-top: -0.1rem;
-}
-
 /* NAVBAR */
 .nav {
+  margin-top: -0.1rem;
   position: fixed;
   top: 0;
   height: 10rem;
@@ -12,7 +9,6 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
   background: var(--primary-bg-color);
   width: 100%;
   z-index: 2;
@@ -52,8 +48,7 @@ header {
 /* RESPONSIVE */
 @media (max-width: 1060px) {
   .nav_list {
-    font-size: var(--fsize-text);
-    gap: 3rem;
+    gap: 2rem;
   }
 
   .logo {

@@ -4,10 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../global/styles/base.css">
-  <link rel="stylesheet" href="../../global/navbar/assets/styles/navbar.css">
-  <link rel="stylesheet" href="../../global/footer/assets/styles/footer.css">
   <link rel="stylesheet" href="./assets/styles/register.css">
+  <link rel="stylesheet" href="./assets/styles/responsive-register.css">
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
   <title>Cadastro | Dream Home</title>
 </head>
@@ -30,10 +28,75 @@
 
   <main class="main">
     <div class="register_container">
-      <div class="">
+      <div class="form_title">
         <h1>Comece Sua Jornada Rumo a um Novo Lar</h1>
         <p>Para nós, um lar é mais do que apenas um lugar, é onde a vida acontece, onde as memórias são criadas e onde os sonhos são cultivados. Se você está em busca de um recomeço, estamos aqui para ajudar. Cadastre-se para iniciar sua jornada conosco. Juntos, podemos transformar a esperança em realidade, criando um lar para você e sua família.</p>
         <img src="./assets/img/register-illustration.svg" alt="">
+      </div>
+
+      <div class="form_container">
+        <form action="#" id="form">
+          <div class="input_group">
+            <div class="input_box first_name_box">
+              <label for="first_name">Nome</label>
+              <input id="first_name" type="text" name="first_name" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="input_box last_name_box">
+              <label for="last_name">Sobrenome</label>
+              <input id="last_name" type="text" name="last_name" placeholder="Digite seu sobrenome" required>
+            </div>
+
+            <div class="input_box email_box">
+              <label for="email">E-mail</label>
+              <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+
+            <div class="input_box phone_number_box">
+              <label for="phone_number">Celular</label>
+              <input id="phone_number" type="tel" name="phone_number" placeholder="(xx) xxxxx-xxxx" required>
+            </div>
+
+            <div class="input_box CEP_box">
+              <label for="CEP">CEP</label>
+              <input id="CEP" type="number" name="CEP" placeholder="Digite seu CEP" required>
+            </div>
+
+            <div class="input_box address_box">
+              <label for="address">Endereço</label>
+              <input id="address" type="text" name="address" placeholder="Digite seu endereço" required>
+            </div>
+
+            <div class="input_box neighborhood_box">
+              <label for="neighborhood">Bairro</label>
+              <input id="neighborhood" type="text" name="neighborhood" placeholder="Digite seu bairro" required>
+            </div>
+
+            <div class="input_box city_box">
+              <label for="city">Cidade</label>
+              <input id="city" type="text" name="city" placeholder="Digite sua cidade" required>
+            </div>
+
+            <div class="input_box state_box">
+              <label for="state">Estado</label>
+              <input id="state" type="text" name="state" placeholder="Digite seu estado" required>
+            </div>
+
+            <div class="input_box house_number_box">
+              <label for="house_number">Número da casa</label>
+              <input id="house_number" type="number" name="house_number" placeholder="Digite o número da casa" required>
+            </div>
+
+            <div class="input_box story_box">
+              <label for="story">Conte a sua história</label>
+              <textarea id="story" name="story" placeholder="Nos conte um pouco da sua história..." required></textarea>
+            </div>
+
+            <div class="submit_button">
+              <button type="submit">Cadastrar</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </main>
@@ -43,6 +106,7 @@
       <div class="logo">
         <img src="/public/Logo-Dream-Home.svg" alt="">
       </div>
+
       <div class="links_container">
         <ul class="footer_links">
           <li><a href="../../pages/home/index.html">Início</a></li>
@@ -51,6 +115,7 @@
           <li><a href="../../pages/register/register.html">Cadastro</a></li>
         </ul>
       </div>
+
       <div class="social_icons">
         <img src="/public/twitter-logo.svg" alt="">
         <img src="/public/facebook-logo.svg" alt="">
@@ -58,6 +123,7 @@
         <a href="https://github.com/Squad-8-Modulo2/Projeto-final-" target="_blank"><img src="/public/GitHub.svg" alt=""></a>
       </div>
     </div>
+
     <div class="footer_credits">
       <p>Feito com <img src="/public/heart.svg" alt=""> por
         <span>
@@ -71,6 +137,7 @@
   </footer>
 
   <script src="../../global/navbar/js/navbar.js"></script>
+  <script src="./js/register.js"></script>
 </body>
 
 </html>
