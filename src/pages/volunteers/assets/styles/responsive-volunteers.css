@@ -1,0 +1,269 @@
+/* LAYOUT RESPONSIVE */
+
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+
+  .volunteers_container {
+    gap: 10rem;
+    margin-top: 15rem;
+  }
+
+  .form_title {
+    width: auto;
+  }
+
+  .form_container {
+    width: 100%;
+  }
+
+  .input_box input,
+  textarea {
+    font-size: var(--fsize-text);
+  }
+
+  .input_box input::placeholder {
+    font-size: var(--fsize-text);
+  }
+
+  .input_box textarea::placeholder {
+    font-size: var(--fsize-text);
+  }
+
+  .submit_button button {
+    padding: 1.6rem 2rem;
+    font-size: var(--fsize-text);
+  }
+}
+
+@media only screen and (max-width: 428px) {
+
+  /* GRID LAYOUT */
+  .input_group {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: auto;
+  }
+
+  .first_name_box {
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 2;
+  }
+
+  .last_name_box {
+    grid-row-start: 2;
+    grid-column-start: 1;
+
+    grid-row-end: 3;
+    grid-column-end: 2;
+  }
+
+  .email_box {
+    grid-row-start: 3;
+    grid-column-start: 1;
+
+    grid-row-end: 4;
+    grid-column-end: 2;
+  }
+
+  .phone_number_box {
+    grid-row-start: 4;
+    grid-column-start: 1;
+
+    grid-row-end: 5;
+    grid-column-end: 2;
+  }
+
+  .story_box {
+    grid-row-start: 5;
+    grid-column-start: 1;
+
+    grid-row-end: 6;
+    grid-column-end: 2;
+  }
+
+  .submit_button {
+    grid-row-start: 6;
+    grid-column-start: 1;
+
+    grid-row-end: 7;
+    grid-column-end: 2;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+
+  .volunteers_container {
+    margin-top: 13rem;
+  }
+
+  .form_title h1 {
+    font-size: calc(var(--fsize-title) - 0.9rem);
+  }
+
+  .form_title p {
+    font-size: calc(var(--fsize-text) - 0.5rem);
+  }
+
+  .form_title img {
+    width: 20rem;
+  }
+
+  .input_box input,
+  textarea {
+    padding: 1rem 1rem;
+  }
+
+  .submit_button button {
+    padding: 1.6rem 2rem;
+    font-size: var(--fsize-text);
+  }
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .volunteers_container {
+    gap: 10rem;
+    margin-top: 15rem;
+  }
+
+  .form_title {
+    width: auto;
+  }
+
+  .form_title h1 {
+    font-size: calc(var(--fsize-title) + 0.5rem);
+  }
+
+  .form_title p {
+    font-size: calc(var(--fsize-text) + 0.1rem);
+  }
+
+  .form_title img {
+    width: 28rem;
+  }
+
+  .form_container {
+    width: 100%;
+  }
+
+  .input_box label {
+    font-size: var(--fsize-text);
+  }
+
+  .input_box input,
+  textarea {
+    padding: 1.8rem 1.6rem;
+    font-size: var(--fsize-text);
+  }
+
+  .input_box input::placeholder {
+    font-size: var(--fsize-text);
+  }
+
+  .input_box textarea::placeholder {
+    font-size: var(--fsize-text);
+  }
+
+  .submit_button button {
+    padding: 2rem 2rem;
+    font-size: calc(var(--fsize-text) + 0.1rem);
+  }
+}
+
+/* LAPTOP */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .volunteers_container {
+    gap: 10rem;
+    margin-top: 15rem;
+  }
+
+  .form_title {
+    width: auto;
+  }
+
+  .form_title h1 {
+    font-size: calc(var(--fsize-title) + 0.8rem);
+  }
+
+  .form_title p {
+    font-size: calc(var(--fsize-text) + 0.4rem);
+  }
+
+  .form_title img {
+    width: 30rem;
+  }
+
+  .form_container {
+    width: 100%;
+  }
+
+  .input_box label {
+    font-size: var(--fsize-text);
+  }
+
+  .input_box input,
+  textarea {
+    padding: 1.8rem 1.6rem;
+    font-size: var(--fsize-text);
+  }
+
+  .input_box input::placeholder {
+    font-size: var(--fsize-text);
+  }
+
+  .input_box textarea::placeholder {
+    font-size: var(--fsize-text);
+  }
+
+  .submit_button button {
+    padding: 2.2rem 2rem;
+    font-size: calc(var(--fsize-text) + 0.1rem);
+  }
+}
+
+/* DESKTOP HIGH RESOLUTION */
+@media only screen and (min-width: 1440px) {
+  .form_title {
+    width: 60rem;
+    text-align: start;
+  }
+
+  .form_title h1 {
+    font-size: calc(var(--fsize-title) + 0.8rem);
+  }
+
+  .form_title p {
+    font-size: calc(var(--fsize-text) + 0.3rem);
+  }
+
+  .form_container {
+    width: 54rem;
+  }
+
+  .input_box label {
+    font-size: var(--fsize-text);
+  }
+
+  .input_box input,
+  textarea {
+    padding: 1.6rem 1.6rem;
+  }
+
+  .input_box input::placeholder {
+    font-size: var(--fsize-text);
+  }
+
+  .input_box textarea::placeholder {
+    font-size: var(--fsize-text);
+  }
+
+  .submit_button button {
+    padding: 1.6rem 2rem;
+    font-size: calc(var(--fsize-text) + 0.1rem);
+    line-height: 2.4rem;
+  }
+}
