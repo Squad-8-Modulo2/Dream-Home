@@ -7,8 +7,8 @@
   --fw-normal: 400;
   --fw-medium: 500;
   --fw-semi-bold: 600;
-  --fsize-title: 4rem;
-  --fsize-subtitle: 3.5rem;
+  --fsize-title: 3.5rem;
+  --fsize-subtitle: 3rem;
   --fsize-text: 1.6rem;
   --fsize-text-small: 1.4rem;
   /* COLORS */
@@ -50,4 +50,5 @@ body {
   font-size: 1.6rem;
   font-family: var(--font-family);
   height: 100vh;
+  background: var(--primary-bg-color);
 }
