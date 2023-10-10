@@ -1,172 +1,297 @@
-@import url("../../../../global/styles/base.css"); 
+@import url("../../../../global/styles/base.css");
 @import url("../../../../global/navbar/assets/styles/navbar.css");
 @import url("../../../../global/footer/assets/styles/footer.css");
 
-body{
-margin: 0%;
+/* RESETS */
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-family: inherit;
+    color: inherit;
 }
 
+/* CONTAINER MAIN */
 .paginaDoacaoApresentacao {
+    min-height: 93vh;
+    margin-top: 10rem;
+    padding-bottom: 7rem;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 12rem;
-    width: 100vw;
-    height: 100vh;
+    align-content: center;
     padding-inline: 7%;
-    border: 6.25rem;
-    background-color: rgba(26, 28, 43, 1);
-    margin-top: 2rem;
-
+    background: var(--primary-bg-color);
 }
 
-.paginaDoacaoApresentacao h1 {
-    width: 46.8125rem;
-    color: rgba(94, 136, 252, 1);
-    font-family: Poppins;
-    font-size: 4.0rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
+/* TITLE SECTION */
 
-.paginaDoacaoApresentacao p {
+#doacaoDivApresentacao {
     width: 46rem;
-    color: #E9F2FC;
-    font-family: Poppins;
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    text-align: start;
 }
 
-.paginaDoacaoApresentacao button {
-    padding: 1.6rem;
-    border-radius: 1.6rem;
+#doacaoDivApresentacao h1 {
+    font-size: var(--fsize-title);
+    font-weight: var(--fw-semi-bold);
+    color: var(--secondary-color);
+}
+
+#doacaoDivApresentacao p {
+    font-size: var(--fsize-text);
+    font-weight: var(--fw-normal);
+    color: var(--text-color);
+    margin-bottom: 4rem;
+}
+
+#doacaoDivApresentacao button {
     background: var(--primary-color);
     font-weight: var(--fw-medium);
     font-size: var(--fsize-text);
-    font-family: Poppins;
     color: var(--text-color);
-    border: none;
-    margin-top: 3rem;
-}
-
-.paginaDoacaoApresentacao img {
-    width: 38.4375rem;
-    height: 25rem;
+    padding: 1.6rem 1.8rem;
+    border-radius: 1.6rem;
 }
 
 .paginaDoacaoAcoes {
+    min-height: 93vh;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+    height: auto;
     display: flex;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: rgba(43, 48, 73, 1);
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-content: center;
     padding-inline: 7%;
-    gap: 3rem;
+    background: var(--secondary-bg-color);
 }
-
-.paginaDoacaoAcoes div {
-    height: 45rem;
-}
-
 
 #doacaoDivDoeValor {
-   width: 37.8rem;
-}
-
-
-#doacaoDivDoeValor p{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
     width: 34rem;
 }
 
-#doacaoDivDoeValor h1{
-    margin-top: -1rem;
+#doacaoDivDoeValor img {
+    margin-bottom: 3rem;
 }
 
-#doacaoDivMoveis p{
-    width: 34rem;
+#doacaoDivDoeValor h1 {
+    margin-bottom: 1.4rem;
+}
+
+#doacaoDivDoeValor p {
+    margin-bottom: 3.2rem;
 }
 
 #doacaoDivMoveis {
-    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    width: 34rem;
+    margin-top: 4rem;
+}
+
+#doacaoDivMoveis img {
+    margin-bottom: 3rem;
+}
+
+#doacaoDivMoveis h1 {
+    margin-bottom: 1.4rem;
+}
+
+#doacaoDivMoveis p {
+    margin-bottom: 3.2rem;
 }
 
 #doacaoDivParceria {
-    width: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    width: 25rem;
+    margin-top: 2rem;
 }
 
-#doacaoDivParceria p{
-    width: 24.4rem;
+#doacaoDivParceria img {
+    margin-bottom: 3rem;
 }
 
+#doacaoDivParceria h1 {
+    margin-bottom: 1.4rem;
+}
 
+#doacaoDivParceria p {
+    margin-bottom: 3.2rem;
+}
 
 .paginaDoacaoAcoes h1 {
-    color: #5E88FC;
-    font-family: Poppins;
-    font-size: 3.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-size: 3rem;
+    font-weight: var(--fw-semi-bold);
+    color: var(--secondary-color);
     margin-bottom: 1.4rem;
 }
 
 .paginaDoacaoAcoes p {
-    color: #E9F2FC;
-    font-family: Poppins;
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    color: var(--text-color);
+    font-size: var(--fsize-text);
+    font-weight: var(--fw-normal);
 }
 
 .paginaDoacaoAcoes button {
-    padding: 1.6rem;
+    padding: 1.2rem;
     border-radius: 1.6rem;
-    height: 5rem;
     background: var(--primary-color);
     font-weight: var(--fw-medium);
     font-size: var(--fsize-text);
-    font-family: Poppins;
     color: var(--text-color);
-    border: none;
-    margin-top: 3rem;
     text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
-#btnDonateFurniture{
-width: 17.8rem;
+#doacaoDivMoveis button {
+    padding-inline: 1.8rem;
+    margin-top: 0.1rem;
 }
 
-#btnParcerias{
-    width: 17.8rem;
+button:hover {
+    background: var(--secondary-color);
+    transition: 0.3s ease-in-out;
 }
 
-button:hover{
-    background-color: rgb(92, 133, 255);
-}
+/* RESPONSIVIDADE */
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+    #doacaoDivApresentacao {
+        width: auto;
+    }
 
-@media screen and (max-width: 830px){
-    .paginaDoacaoApresentacao{
-        height: 100vh;
-        width: 100vw;
-        flex-direction: column;
+    .paginaDoacaoApresentacao {
+        padding-top: 5rem;
+        gap: 10rem;
+    }
 
+    .paginaDoacaoAcoes {
+        gap: 10rem;
+    }
+
+    #doacaoDivImg img {
+        width: 40rem;
+    }
+
+    button:hover {
+        background: var(--primary-color);
     }
 }
 
-@media screen and (max-width: 830px){
-    .paginaDoacaoAcoes{
-        height: 100vh;
-        width: 100vw;
-        flex-direction: column;
+@media only screen and (max-width: 450px) {
+    #doacaoDivImg img {
+        width: 30rem;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+
+    #doacaoDivApresentacao h1 {
+        font-size: calc(var(--fsize-title) - 0.9rem);
+    }
+
+    #doacaoDivApresentacao p {
+        font-size: calc(var(--fsize-text) - 0.1rem);
+    }
+
+    #doacaoDivApresentacao button {
+        padding: 1.3rem 1.8rem;
+    }
+
+    #doacaoDivImg img {
+        width: 25rem;
+    }
+
+    #doacaoDivDoeValor img {
+        width: 21rem;
+    }
+
+    #doacaoDivDoeValor h1 {
+        font-size: calc(var(--fsize-subtitle) - 0.5rem);
+    }
+
+    #doacaoDivMoveis img {
+        width: 25rem;
+    }
+
+    #doacaoDivMoveis h1 {
+        font-size: calc(var(--fsize-subtitle) - 0.5rem);
+    }
+
+    #doacaoDivParceria img {
+        width: 21rem;
+    }
+
+    #doacaoDivParceria h1 {
+        font-size: calc(var(--fsize-subtitle) - 0.5rem);
+    }
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #doacaoDivApresentacao {
+        width: auto;
+    }
+
+    #doacaoDivImg img {
+        width: 40rem;
+    }
+
+    .paginaDoacaoApresentacao {
+        gap: 10rem;
+    }
+
+    .paginaDoacaoAcoes {
+        gap: 10rem;
+    }
+}
+
+/* LAPTOP */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    #doacaoDivApresentacao h1 {
+        font-size: calc(var(--fsize-title) + 0.9rem);
+    }
+
+    #doacaoDivApresentacao p {
+        font-size: calc(var(--fsize-text) + 0.5rem);
+    }
+
+    #doacaoDivApresentacao button {
+        padding: 2rem 3rem;
+        font-size: calc(var(--fsize-text) + 0.3rem);
+    }
+
+    #doacaoDivApresentacao {
+        width: auto;
+    }
+
+    .paginaDoacaoApresentacao {
+        gap: 15rem;
+    }
+
+    .paginaDoacaoAcoes {
+        gap: 10rem;
     }
 }
