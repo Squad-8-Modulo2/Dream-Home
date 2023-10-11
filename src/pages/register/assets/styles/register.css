@@ -19,7 +19,6 @@ button {
   background: var(--primary-bg-color);
   padding-inline: 7%;
 }
-
 .register_container {
   min-height: 93vh;
   margin-top: 13rem;
