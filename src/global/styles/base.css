@@ -53,6 +53,10 @@ body {
   background: var(--primary-bg-color);
 }
 
+button {
+  cursor: pointer;
+}
+
 /* SCROLLBAR STYLES */
 ::-webkit-scrollbar-track {
   background-color: #1f2134;
