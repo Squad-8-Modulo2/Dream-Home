@@ -1,0 +1,64 @@
+/* RESETS */
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.about_us {
+  min-height: 93vh;
+  height: auto;
+  padding-inline: 7%;
+  padding-bottom: 7rem;
+  padding-top: 7rem;
+  background: var(--secondary-bg-color);
+}
+
+.about_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.about_text {
+  width: 46rem;
+}
+
+.about_text h2 {
+  color: var(--secondary-color);
+  font-size: var(--fsize-title);
+  font-weight: var(--fw-semi-bold);
+  margin-bottom: 0.5rem;
+}
+
+.about_text p {
+  color: var(--text-color);
+  font-size: calc(var(--fsize-text-small) + 0.1rem);
+  font-weight: var(--fw-medium);
+  margin-bottom: 2rem;
+}
+
+.dream_home {
+  color: #6D93FC;
+}
+
+.donation_button {
+  background: var(--primary-color);
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  font-size: calc(var(--fsize-text-small) + 0.1rem);
+  color: var(--text-color);
+  transition: 0.3s ease-in-out;
+}
+
+.donation_button:hover {
+  background: var(--secondary-color);
+  transition: 0.3s ease-in-out;
+}
