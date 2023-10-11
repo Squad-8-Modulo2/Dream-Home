@@ -23,7 +23,7 @@ button {
 .volunteers_container {
   min-height: 93vh;
   margin-top: 10rem;
-  margin-bottom: 8rem;
+  margin-bottom: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
