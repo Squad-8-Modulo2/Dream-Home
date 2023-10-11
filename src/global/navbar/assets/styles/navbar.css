@@ -98,19 +98,19 @@
   }
 
   .nav_list li:nth-child(2) a {
-    transition: 0.5s 0.4s ease-in-out;
+    transition: 0.5s 0.2s ease-in-out;
   }
 
   .nav_list li:nth-child(3) a {
-    transition: 0.5s 0.6s ease-in-out;
+    transition: 0.5s 0.2s ease-in-out;
   }
 
   .nav_list li:nth-child(4) a {
-    transition: 0.5s 0.8s ease-in-out;
+    transition: 0.5s 0.2s ease-in-out;
   }
 
   .nav_list li:nth-child(5) a {
-    transition: 0.5s 0.9s ease-in-out;
+    transition: 0.5s 0.2s ease-in-out;
   }
 
   .nav_list.mobile_menu a {
