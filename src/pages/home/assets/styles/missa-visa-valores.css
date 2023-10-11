@@ -1,0 +1,67 @@
+/* CONTAINER */
+.mission_vision_values_Container {
+  min-height: 93vh;
+  height: auto;
+  padding-inline: 7% 0%;
+  padding-bottom: 7rem;
+  padding-top: 7rem;
+  background: var(--primary-bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.content {
+  width: 46rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.4rem;
+}
+
+.title img {
+  width: 14%;
+
+}
+
+.vision_img {
+  margin-right: 8.7rem;
+}
+
+.mission_img {
+  margin-right: 8.2rem;
+}
+
+.values_img {
+  margin-right: 8.7rem;
+}
+
+.title h2 {
+  font-size: var(--fsize-subtitle);
+  font-weight: var(--fw-semi-bold);
+  color: var(--secondary-color);
+}
+
+.content img {
+  margin-left: auto;
+}
+
+.content p,
+ul {
+  color: var(--text-color);
+  font-size: calc(var(--fsize-text-small) + 0.1rem);
+}
+
+.content ul {
+  list-style: outside;
+  margin-left: 2.2rem;
+}
+
+.content p {
+  margin-bottom: 4rem;
+}

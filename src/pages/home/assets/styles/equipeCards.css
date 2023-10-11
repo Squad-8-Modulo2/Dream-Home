@@ -1,0 +1,88 @@
+.team_page {
+  min-height: 93vh;
+  height: auto;
+  padding-inline: 7%;
+  padding-bottom: 7rem;
+  padding-top: 7rem;
+  background: var(--secondary-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7rem;
+}
+
+.team_page h2 {
+  color: var(--secondary-color);
+  font-size: var(--fsize-title);
+  text-align: center;
+}
+
+.team_members_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+}
+
+.paulo .member {
+  width: 21.2rem;
+  height: 29.7rem;
+  background: url("../img/imagem\ perfil\ Paulo\ Ricardo\ -\ img.jpeg");
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 1.6rem;
+  filter: grayscale(100%);
+}
+
+.janine .member {
+  width: 21.2rem;
+  height: 29.7rem;
+  background: url("../img/imagem\ perfil\ Janine\ -\ img.jpeg");
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 1.6rem;
+  filter: grayscale(100%);
+}
+
+.larissa .member {
+  width: 21.2rem;
+  height: 29.7rem;
+  background: url("../img/imagem\ perfil\ Larissa\ -\ img.jpg");
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 1.6rem;
+  filter: grayscale(100%);
+}
+
+.gaspar .member {
+  width: 21.2rem;
+  height: 29.7rem;
+  background: url("../img/imagem\ perfil\ gaspar\ -\ img.jpg");
+  background-size: cover;
+  border-radius: 1.6rem;
+  filter: grayscale(100%);
+}
+
+.team_member {
+  text-align: center;
+}
+
+.team_member div {
+  margin-bottom: 1.0rem;
+}
+
+.team_member h4 {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+  font-weight: var(--fw-semi-bold);
+}
+
+.team_member span {
+  color: #4A66B8;
+  font-size: var(--fsize-text-small);
+  font-weight: var(--fw-normal);
+}
