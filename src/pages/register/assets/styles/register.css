@@ -143,7 +143,7 @@ textarea {
   display: grid;
   grid-template-rows: auto auto auto auto auto auto auto auto;
   grid-template-columns: auto auto;
-  row-gap: 2.4rem;
+  row-gap: 2.8rem;
   column-gap: 3.2rem;
 }
 
@@ -246,4 +246,39 @@ textarea {
 /* FOOTER */
 .footer {
   background: var(--secondary-bg-color);
+}
+
+/* VALIDATION FORM */
+.success input {
+  border: 0.1rem solid #49c965;
+}
+
+.success input:focus {
+  border: 0.1rem solid #49c965;
+}
+
+.invalid input {
+  border: 0.1rem solid #ff3860;
+}
+
+.invalid input:focus {
+  border: 0.1rem solid #ff3860;
+}
+
+.invalid_message {
+  display: none;
+}
+
+.invalid_message {
+  color: #ff3860;
+  font-size: calc(var(--fsize-text-small) - 0.2rem);
+}
+
+.input_box {
+  position: relative;
+}
+
+.invalid_message {
+  position: absolute;
+  bottom: -2rem;
 }

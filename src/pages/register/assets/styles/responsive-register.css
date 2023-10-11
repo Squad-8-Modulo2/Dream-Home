@@ -176,6 +176,19 @@
     padding: 1.6rem 2rem;
     font-size: var(--fsize-text);
   }
+
+  /* VALIDATION FORM */
+  .invalid_message {
+    font-size: calc(var(--fsize-text-small) - 0.3rem);
+  }
+}
+
+@media only screen and (max-width: 280px) {
+
+  /* VALIDATION FORM */
+  .invalid_message {
+    font-size: calc(var(--fsize-text-small) - 0.4rem);
+  }
 }
 
 /* TABLET */
