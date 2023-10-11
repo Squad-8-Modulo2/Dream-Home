@@ -56,7 +56,6 @@ body {
 /* SCROLLBAR STYLES */
 ::-webkit-scrollbar-track {
   background-color: #1f2134;
-  /* #1A1C2B */
 }
 
 ::-webkit-scrollbar {
@@ -65,6 +64,5 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background-color: #313653;
-  /* #2B3049 */
   border-radius: 0.8rem;
 }
