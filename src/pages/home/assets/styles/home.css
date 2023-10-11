@@ -21,7 +21,7 @@ button {
 .main_container {
   min-height: 93vh;
   margin-top: 10rem;
-  margin-bottom: 7rem;
+  padding-bottom: 7rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -32,7 +32,7 @@ button {
 
 .main_text {
   width: 46rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .main_text h1 {
