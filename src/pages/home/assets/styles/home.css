@@ -16,6 +16,6 @@ button {
     margin-top: 5rem;
 }
 
-section{
-    padding:5rem;
+.section01 h1{
+    color:  var(--secondary-color);
 }
